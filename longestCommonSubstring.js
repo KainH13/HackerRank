@@ -18,7 +18,7 @@ function longestSubstring(s1, s2) {
         );
       }
     }
-    return memo[i][j]; // return memoized result for s1 index and s1 index
+    return memo[i][j]; // return memoized result for s1 index and s2 index
   }
 
   return helper(s1, s2, 0, 0, memo);
